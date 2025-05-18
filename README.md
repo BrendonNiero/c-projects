@@ -39,5 +39,5 @@ gcc main.c -o main
 ```
 4. Execute no terminal
 ``` bash
-main
+./main
 ```

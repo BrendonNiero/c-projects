@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main(){
-    
-    int myArr[][2] = {
-        { 1, 2},
-        {333, 423}
-    };
+    int foo = 1;
+    int bar = 2;
 
-    printf("%d", myArr[0][1]);
-
+    if(foo > bar){
+        printf("Foo is more big than bar.");
+    } else {
+        printf("Bar is more big than foo.");
+    }
     return 0;
 }
